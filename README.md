@@ -3,19 +3,20 @@
 ## Introduction
 
 This project sourced from Microsoft Learn, equivalent to **Add logic to C# console applications (Get started with C#, Part 3)**
-[Link](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/)
+
+[Navigate to Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/)
 
 This project is to create a console application about animal data, to display the collection of the stored animals, to add new animal into the collection, to update information of animals which met the conditions.
 
 There are in total 8 options on the menu after the program is loaded:
-    1. List all of our current pet information
-    2. Add a new animal friend to the ourAnimals array
-    3. Ensure animal ages and physical descriptions are complete
-    4. Ensure animal nicknames and personality descriptions are complete
-    5. Edit an animal¡¯s age
-    6. Edit an animal¡¯s personality description
-    7. Display all cats with their characteristics
-    8. Display all dogs with their characteristics
+1. List all of our current pet information
+2. Add a new animal friend to the ourAnimals array
+3. Ensure animal ages and physical descriptions are complete
+4. Ensure animal nicknames and personality descriptions are complete
+5. Edit an animalÂ¡Â¯s age
+6. Edit an animalÂ¡Â¯s personality description
+7. Display all cats with their characteristics
+8. Display all dogs with their characteristics
 
 This repository is composed of 3 parts:
 * Guided Project (Task 1-2)
@@ -38,5 +39,14 @@ Starter folder contains my work.
 Inside the subfolder of "contozo_animal_family" (temp name I created), you can find the executable file Program.cs to check my work or run it in your local environment.
 
 ## How to run the program in the local environment
+This repository requires .NET runtime installed in the local environment to run it. 
 
-To be constructed.
+### I have installed .NET in my computer
+Please download the zip file of this repository or use `git clone` command with the URL to clone it to your drive. 
+Go to the targeted folder, you can either run it in your terminal or open with your preferred IDE (for example Viscual Studio / Visual Studio Code).
+If you want to run it in the terminal, use `dotnet run` to build and run it.
+If you want to run it inside your preferred IDE, like Visual Studio, you can navigate yourself to *debug* in the top menu bar, and click *start debugging*.
+
+### I have not installed .NET in my computer
+Please go to the link below which leads you back to Microsoft, follow the instructions and install .NET in your computer.
+[Install .NET on Windows, Linux, and macOS] (https://learn.microsoft.com/en-us/dotnet/core/install/)
