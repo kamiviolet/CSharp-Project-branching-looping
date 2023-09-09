@@ -13,8 +13,8 @@ There are in total 8 options on the menu after the program is loaded:
 2. Add a new animal friend to the ourAnimals array
 3. Ensure animal ages and physical descriptions are complete
 4. Ensure animal nicknames and personality descriptions are complete
-5. Edit an animal¡¯s age
-6. Edit an animal¡¯s personality description
+5. Edit an animal's age
+6. Edit an animal's personality description
 7. Display all cats with their characteristics
 8. Display all dogs with their characteristics
 
