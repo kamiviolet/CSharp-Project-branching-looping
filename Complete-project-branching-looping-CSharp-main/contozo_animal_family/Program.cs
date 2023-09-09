@@ -381,7 +381,7 @@ do
                 {
                     for (int i = 0; i < maxPets; i++)
                     {
-                        if ((String.Format("ID #: {0}", readResult) == ourAnimals[i, 0]) && (ourAnimals[i, 0] != "ID #: "))
+                        if (ourAnimals[i, 0].Contains(readResult) && (ourAnimals[i, 0] != "ID #: "))
                         {
                             Console.WriteLine($"you would like to edit the age of the animal with {ourAnimals[i, 0]}.");
                             indexOfSelectedPetForUpdate = i + 1;
@@ -427,7 +427,7 @@ do
                 {
                     for (int i = 0; i < maxPets; i++)
                     {
-                        if ((String.Format("ID #: {0}", readResult) == ourAnimals[i, 0]) && (ourAnimals[i, 0] != "ID #: "))
+                        if (ourAnimals[i, 0].Contains(readResult) && (ourAnimals[i, 0] != "ID #: "))
                         {
                             Console.WriteLine($"you would like to edit the age of the animal with {ourAnimals[i, 0]}.");
                             indexOfSelectedPetForUpdate = i + 1;
@@ -460,7 +460,7 @@ do
             // Display all cats with their characteristics
             for (int i = 0; i < maxPets; i++)
             {
-                if (ourAnimals[i, 1] == "Species: cat")
+                if (ourAnimals[i, 1].Contains("cat"))
                 {
                     Console.WriteLine(ourAnimals[i, 0]);
                     Console.WriteLine(ourAnimals[i, 3]);
@@ -476,7 +476,7 @@ do
             // Display all dogs with their characteristics
             for (int i = 0; i < maxPets; i++)
             {
-                if (ourAnimals[i, 1] == "Species: dog")
+                if (ourAnimals[i, 1].Contains("dog"))
                 {
                     Console.WriteLine(ourAnimals[i, 0]);
                     Console.WriteLine(ourAnimals[i, 3]);
