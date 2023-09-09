@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This project sourced from Microsoft Learn, equivalent to "Add logic to C# console applications (Get started with C#, Part 3)"
-Link: https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/
+This project sourced from Microsoft Learn, equivalent to **Add logic to C# console applications (Get started with C#, Part 3)**
+[Link](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/)
 
 This project is to create a console application about animal data, to display the collection of the stored animals, to add new animal into the collection, to update information of animals which met the conditions.
 
