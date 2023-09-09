@@ -49,4 +49,5 @@ If you want to run it inside your preferred IDE, like Visual Studio, you can nav
 
 ### I have not installed .NET in my computer
 Please go to the link below which leads you back to Microsoft, follow the instructions and install .NET in your computer.
-[Install .NET on Windows, Linux, and macOS] (https://learn.microsoft.com/en-us/dotnet/core/install/)
+
+[Install .NET on Windows, Linux, and macOS](https://learn.microsoft.com/en-us/dotnet/core/install/)
